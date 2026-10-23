@@ -1,4 +1,14 @@
-# 面向 AI Agent 的研发体系
+# Agentic Engineering Playbook
+
+A series about the engineering foundations and practices for building complex, long-lived software systems in the age of AI agents.
+
+The focus is on durable improvements to development speed, quality, and safety—not comparisons of small differences between coding agents.
+
+## Articles
+
+1. [Why AI Cannot Build Complex Systems Alone](articles/01-architecture.md) — Chapter 1: Architecture
+
+## 中文
 
 一组关于 AI 时代如何构建复杂、长期演进软件系统的工程文章。
 
@@ -6,10 +16,4 @@
 
 ## 文章
 
-1. [为什么 AI 不能独自构建复杂系统 / Why AI Cannot Build Complex Systems Alone](articles/01-architecture.md) — 架构篇 / Architecture
-
-## English
-
-A series about the engineering foundations and practices for building complex, long-lived software systems in the age of AI agents.
-
-The focus is on durable improvements to development speed, quality, and safety—not comparisons of small differences between coding agents.
+1. [为什么 AI 不能独自构建复杂系统](articles/01-architecture.md) — 第一篇：架构篇
