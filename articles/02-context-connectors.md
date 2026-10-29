@@ -1,19 +1,3 @@
-# A Framework Built Around Context Assembly and Feedback
-
-## 中文标题：围绕上下文装配与反馈构建框架
-
-I really like the design philosophy behind the DSH framework, and I have a few framework-level ideas I’d love to discuss with you.
-
-I see Skills and MCP as concepts introduced to adapt to existing development workflows and make adoption easier. If we return to the essence of ReAct, they can all be abstracted as one mechanism: the program provides context to the model and receives feedback from it.
-
-If the framework standardized only context assembly and context feedback, concepts such as workspaces—and even sessions—would not need to be part of the framework itself. Major service providers, such as sandbox services, session management services, and Git services, could instead become replaceable context connectors.
-
-At the product level, users could flexibly choose which connectors to combine for each turn. At the architecture level, service providers would no longer be constrained by today’s Skill and MCP forms. They could expose their full services through DSH’s standardized service layer, making capabilities such as permissions and billing easier to implement.
-
-I’m exploring a framework design based on this abstraction, and I’d really like to hear your thoughts.
-
----
-
 # 关于 DSH：以上下文装配与反馈作为框架边界
 
 我非常喜欢 DSH 框架的理念，有一些框架层面的想法想和您探讨一下。
