@@ -1,21 +1,11 @@
-# Agentic Engineering Playbook
+# 关于 DSH：以上下文装配与反馈作为框架边界
 
-A series about the engineering foundations and practices for building complex, long-lived software systems in the age of AI agents.
+我非常喜欢咱们 DSH 框架的理念，有一些框架层面的想法想跟您探讨一下。
 
-The focus is on durable improvements to development speed, quality, and safety—not comparisons of small differences between coding agents.
+我认为，Skill、MCP 这些东西都是为了适配过去的研发模式、为了推广而提出的概念。回到 ReAct 的本质，它们都可以抽象为一种机制：程序给大模型提供上下文，并接收大模型的反馈。
 
-## Articles
+如果我们从框架层面只提供上下文装配和上下文反馈的标准化能力，工作区甚至会话这些概念都不必被包含在框架之内。大的服务提供商，比如沙箱服务、会话管理服务，甚至 Git 服务，都可以成为可替换的上下文连接器。
 
-1. [Why AI Cannot Build Complex Systems Alone](articles/01-architecture.md) — Chapter 1: Architecture
-2. [A Framework Built Around Context Assembly and Feedback](articles/02-context-connectors.md) — A DSH framework discussion
+未来在产品上，用户可以灵活地选择每一轮通过哪些连接器组合执行。技术架构上，服务商可以不被现在这些 Skill、MCP 形式限制，而是把完整的服务能力提供到 DSH 的标准化服务之上，权限、收费等能力也都能更容易实现。
 
-## 中文
-
-一组关于 AI 时代如何构建复杂、长期演进软件系统的工程文章。
-
-这个系列关注能持续提升研发效率、质量与安全性的基础设施和工程范式，而不是不同 Coding Agent 的细节能力比较。
-
-## 文章
-
-1. [为什么 AI 不能独自构建复杂系统](articles/01-architecture.md) — 第一篇：架构篇
-2. [关于 DSH：以上下文装配与反馈作为框架边界](articles/02-context-connectors.md)
+我正在尝试这种抽象下的框架设计，非常想听听您的意见。
